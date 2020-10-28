@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+	<series>
+		<value xid="0">西安局(347)</value>
+		<value xid="1">咸阳局(187)</value>
+	</series>
+	<graphs>
+		<graph gid="30" color="#FFCC00" gradient_fill_colors="#111111, #1A897C">
+			<value xid="0">3483</value>
+			<value xid="1">2061</value>
+		</graph>
+	</graphs>
+</chart>

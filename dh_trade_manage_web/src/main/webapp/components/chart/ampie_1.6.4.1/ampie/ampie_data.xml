@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pie>
+  <!--
+  <message bg_color="#CCBB00" text_color="#FFFFFF">
+    <![CDATA[You can broadcast any message to chart from data XML file]]>
+  </message>
+  -->
+  <slice title="Twice a day">3580</slice>
+  <slice title="Once a day">258</slice>
+  <slice title="Once a week">154</slice>
+  <slice title="Once a weekxx">2254</slice>
+  <slice title="Never" url="http://www.interactivemaps.org" description="Click on the slice to find more information" alpha="50">114</slice>
+</pie>

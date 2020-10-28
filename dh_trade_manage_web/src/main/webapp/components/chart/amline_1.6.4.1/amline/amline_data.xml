@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+  <!--<message><![CDATA[You can broadcast any message to chart from data XML file]]></message> -->
+	<series>
+		<value xid="0">1949</value>
+		<value xid="1">1950</value>
+		<value xid="2">1951</value>
+		<value xid="3">1952</value>
+		<value xid="4">1953</value>
+		<value xid="5">1954</value>
+		<value xid="6">1955</value>
+		<value xid="7">1956</value>
+		<value xid="8">1957</value>
+		<value xid="9">1958</value>
+		<value xid="10">1959</value>
+		<value xid="11">1960</value>
+		<value xid="12">1961</value>
+		<value xid="13">1962</value>
+		<value xid="14">1963</value>
+		<value xid="15">1964</value>
+		<value xid="16">1965</value>
+	</series>
+	<graphs>
+		<graph gid="1">
+			<value xid="0">120</value>
+			<value xid="1">130</value>
+			<value xid="2">140</value>
+			<value xid="3">150</value>
+			<value xid="4">160</value>
+			<value xid="5">170</value>
+			<value xid="6">180</value>
+			<value xid="7">190</value>
+			<value xid="8">1120</value>
+			<value xid="9">1150</value>
+			<value xid="10">1180</value>
+			<value xid="11">1240</value>
+			<value xid="12">1400</value>
+			<value xid="13">1800</value>
+			<value xid="14">11200</value>
+			<value xid="15">15600</value>
+			<value xid="16">13200</value>
+		</graph>
+		<graph gid="2">
+			<value xid="0">20</value>
+			<value xid="1">30</value>
+			<value xid="2">40</value>
+			<value xid="3">50</value>
+			<value xid="4">60</value>
+			<value xid="5">70</value>
+			<value xid="6">80</value>
+			<value xid="7">90</value>
+			<value xid="8">120</value>
+			<value xid="9">150</value>
+			<value xid="10">180</value>
+			<value xid="11">240</value>
+			<value xid="12">400</value>
+			<value xid="13">800</value>
+			<value xid="14">1200</value>
+			<value xid="15">5600</value>
+			<value xid="16">3200</value>
+		</graph>
+	</graphs>
+</chart>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:jaxws="http://cxf.apache.org/jaxws"
+		xsi:schemaLocation=" http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd 
+							http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+    <import resource="classpath:META-INF/cxf/cxf.xml"/>
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+
+    <!-- 声明WebService Bean，发布WebService -->
+    <bean id="exportCService" class="com.giao.ssm.service.impl.ExportCServiceImpl">
+		<!--<property name="exportCDao" value="exportCDao">
+    		&lt;!&ndash;<ref bean="exportCDao"/>&ndash;&gt;
+    	</property>-->
+    </bean>
+
+    <!-- http://localhost:9080/cxf/ExportServiceImpl -->
+	<!-- 定义webService的发布接口 -->
+    <jaxws:endpoint implementor="#exportCService" address="/ExportCServiceImpl"/>
+	<!-- 配置Mapper映射文件扫描器 -->
+	<!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.giao.ssm.dao.ExportCDao"/>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+	</bean>-->
+
+</beans>
